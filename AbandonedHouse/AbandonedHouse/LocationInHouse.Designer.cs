@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LocationInHouse));
             this.lbl_bodies = new System.Windows.Forms.Label();
             this.btn_Clear = new System.Windows.Forms.Button();
             this.btn_basement = new System.Windows.Forms.Button();
@@ -40,9 +39,11 @@
             this.lbl_bodies.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.lbl_bodies.Location = new System.Drawing.Point(240, 171);
             this.lbl_bodies.Name = "lbl_bodies";
-            this.lbl_bodies.Size = new System.Drawing.Size(321, 52);
+            this.lbl_bodies.Size = new System.Drawing.Size(321, 39);
             this.lbl_bodies.TabIndex = 5;
-            this.lbl_bodies.Text = resources.GetString("lbl_bodies.Text");
+            this.lbl_bodies.Text = "You have heard rumors about kids who have died in that house, \r\nthier bodies have" +
+    " been hidden in the basement. You really want to \r\nexplore the entire house thou" +
+    "gh. What do you choose? ";
             // 
             // btn_Clear
             // 

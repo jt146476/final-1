@@ -19,13 +19,13 @@ namespace AbandonedHouse
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new LocationInHouse().Show();
+            new ExploringTogether().Show();
             this.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new ExploringTogether().Show();
+            new theEnding().Show();
             this.Visible = false;
         }
     }
